@@ -1,0 +1,75 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/welcome-3.jsp"
+  },
+  "logoInfo": {
+    "title": "花店销售管理",
+    "image": "images/1.gif",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "用户管理",
+          "href": "page/userManageTable.jsp",
+          "icon": "fa fa-male",
+          "target": "_self"
+        },
+        {
+          "title": "用户分类",
+          "href": "page/userCategoryManageTable.jsp",
+          "icon": "fa fa-star-half-empty",
+          "target": "_self"
+        },
+        {
+          "title": "产品管理",
+          "href": "page/productManageTable.jsp",
+          "icon": "fa fa-tags",
+          "target": "_self"
+        },
+        {
+          "title": "产品分类",
+          "href": "page/productCategoryManageTable.jsp",
+          "icon": "fa fa-ticket",
+          "target": "_self"
+        },
+        {
+          "title": "源产地管理",
+          "href": "page/originManageTable .jsp",
+          "icon": "fa fa-truck",
+          "target": "_self"
+        },
+        {
+          "title": "客户订单",
+          "href": "page/orderManageTable.jsp",
+          "icon": "fa fa-shopping-cart",
+          "target": "_self"
+        },
+        {
+          "title": "收货地址管理",
+          "href": "page/addressManageTable.jsp",
+          "icon": "fa fa-road",
+          "target": "_self"
+        },
+        {
+          "title": "系统日志",
+          "href": "page/systemLogManageTable.jsp",
+          "icon": "fa fa-history",
+          "target": "_self"
+        },
+        {
+          "title": "404页面",
+          "href": "page/404.jsp",
+          "icon": "fa fa-ban",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
